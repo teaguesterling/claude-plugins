@@ -8,6 +8,7 @@ Developer workflow plugins for Claude Code.
 |--------|-------------|
 | [jetsam](plugins/jetsam) | Git workflow accelerator — MCP server, agent routing, safety hooks |
 | [blq](plugins/blq) | Build Log Query — capture, query, and analyze build/test output |
+| [fledgling](plugins/fledgling) | DuckDB-powered code analysis — AST search, git diffs, conversation history |
 
 ## Installation
 
@@ -24,3 +25,4 @@ Developer workflow plugins for Claude Code.
 Each plugin lists its own requirements. Generally:
 - **jetsam**: `pip install jetsam-mcp` + `gh` CLI
 - **blq**: `pip install blq-cli`
+- **fledgling**: DuckDB + `curl -sL https://teaguesterling.github.io/fledgling/install.sql | duckdb`

@@ -16,6 +16,12 @@
       "source": "./plugins/blq",
       "description": "Build Log Query — capture, query, and analyze build/test output through MCP",
       "version": "1.0.0"
+    },
+    {
+      "name": "fledgling",
+      "source": "./plugins/fledgling",
+      "description": "DuckDB-powered code analysis — AST search, git diffs, code structure, conversation history",
+      "version": "1.0.0"
     }
   ]
 }
