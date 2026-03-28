@@ -25,4 +25,4 @@ Developer workflow plugins for Claude Code.
 Each plugin lists its own requirements. Generally:
 - **jetsam**: `pip install jetsam-mcp` + `gh` CLI
 - **blq**: `pip install blq-cli`
-- **fledgling**: DuckDB + `curl -sL https://teaguesterling.github.io/fledgling/install.sql | duckdb`
+- **fledgling**: `pip install fledgling` + DuckDB, then `fledgling init` in your project
