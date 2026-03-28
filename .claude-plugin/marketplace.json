@@ -10,6 +10,12 @@
       "source": "./plugins/jetsam",
       "description": "Git workflow accelerator — MCP server, agent instructions, and safety hooks",
       "version": "1.0.0"
+    },
+    {
+      "name": "blq",
+      "source": "./plugins/blq",
+      "description": "Build Log Query — capture, query, and analyze build/test output through MCP",
+      "version": "1.0.0"
     }
   ]
 }
