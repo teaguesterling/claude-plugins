@@ -1,0 +1,15 @@
+{
+  "name": "teague-tools",
+  "description": "Developer workflow plugins for Claude Code",
+  "owner": {
+    "name": "Teague Sterling"
+  },
+  "plugins": [
+    {
+      "name": "jetsam",
+      "source": "./plugins/jetsam",
+      "description": "Git workflow accelerator — MCP server, agent instructions, and safety hooks",
+      "version": "1.0.0"
+    }
+  ]
+}
